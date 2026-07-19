@@ -913,6 +913,18 @@ input, textarea, select, button { font-family: inherit; font-size: inherit; }
   .partners-grid { grid-template-columns: repeat(2, 1fr); }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .hero-v2-stats { flex-wrap: wrap; gap: 12px; }
+  /* Hero V2 スマホ調整 */
+  .hero-v2-content { padding: 40px 0 80px; }
+  .hero-v2-title { font-size: 1.7rem; }
+  .hero-v2-sub { font-size: 14px; letter-spacing: 0.04em; }
+  .hero-v2-cta .btn-hero-line,
+  .hero-v2-cta .btn-hero-outline { width: 100%; max-width: 100%; padding: 14px 24px; font-size: 15px; }
+  /* NEWS タイトル */
+  .news-title { font-size: 36px; margin-bottom: 28px; }
+  .news-section { padding: 48px 0 40px; }
+  .news-item { gap: 12px; font-size: 14px; }
+  /* フッター */
+  .footer-inner { gap: 24px; }
 }
 
 /* ============================================================
