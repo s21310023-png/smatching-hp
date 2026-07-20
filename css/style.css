@@ -900,6 +900,8 @@ input, textarea, select, button { font-family: inherit; font-size: inherit; }
   .header-nav  { display: none; }
   .hamburger   { display: flex; }
   .mobile-overlay { display: block; }
+  .header-inner { height: 60px; }
+  .header-logo-img { height: 48px; }
   .footer-inner { grid-template-columns: 1fr; gap: 32px; }
   .footer-brand { grid-column: span 1; }
   .footer-bottom { flex-direction: column; text-align: center; }
